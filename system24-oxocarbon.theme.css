@@ -99,9 +99,8 @@ body {
   --text-1: #ffffff; /* other normally white text */
   --text-2: var(--text-1); /* headings and important text */
   --text-3: #f2f4f8; /* normal text */
-  /* TODO: ok? */
-  --text-4: var(--text-3); /* icon buttons and channels */
-  --text-5: #8d8d8d; /* muted channels/chats and timestamps */
+  --text-4: #929292; /* icon buttons and channels */
+  --text-5: #525252; /* muted channels/chats and timestamps */
 
   /* background and dark colors */
   /* TODO: maybe? */
@@ -164,29 +163,27 @@ body {
 
   /* base colors */
   /* For most of these, I've only set <color>-2 bc the others are unused :P */
-  /* I considered making red and green etc match oxocarbon's ansi colors (so not actually red or green etc) but I ultimately decided that it would just reduce usability */
 
   --red-1: oklch(75% 0.13 0);
-  --red-2: #ee5396;
+  --red-2: #78a9ff;
   --red-3: oklch(65% 0.13 0);
   --red-4: oklch(60% 0.13 0);
   --red-5: oklch(55% 0.13 0);
 
   --green-1: oklch(75% 0.12 170);
-  --green-2: #42be65;
+  --green-2: var(--purple-1);
   --green-3: oklch(65% 0.12 170);
   --green-4: oklch(60% 0.12 170);
   --green-5: oklch(55% 0.12 160);
 
   --blue-1: oklch(75% 0.11 215);
-  --blue-2: #33b1ff;
+  --blue-2: oklch(70% 0.11 215);
   --blue-3: oklch(65% 0.11 215);
   --blue-4: oklch(60% 0.11 215);
   --blue-5: oklch(55% 0.11 215);
 
   --yellow-1: oklch(80% 0.12 90);
-  /* TODO: ok? */
-  --yellow-2: #78a9ff;
+  --yellow-2: #42be65;
   --yellow-3: oklch(70% 0.12 90);
   --yellow-4: oklch(65% 0.12 90);
   --yellow-5: oklch(60% 0.12 90);
