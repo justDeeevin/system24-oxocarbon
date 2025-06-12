@@ -103,7 +103,6 @@ body {
   --text-5: #525252; /* muted channels/chats and timestamps */
 
   /* background and dark colors */
-  /* TODO: maybe? */
   --bg-1: var(--bg-2); /* dark buttons when clicked */
   --bg-2: #393939; /* dark buttons */
   --bg-3: oklch(23% 0 0); /* spacing, secondary elements */
@@ -189,11 +188,8 @@ body {
   --yellow-5: oklch(60% 0.12 90);
 
   --purple-1: #ff7eb6;
-  /* TODO: ok? */
   --purple-2: #be95ff;
-  /* TODO: ok? */
   --purple-3: var(--purple-1);
-  /* TODO: something different */
-  --purple-4: var(--purple-1);
+  --purple-4: #eb6ca5; /* ~5% lightness decrease */
   --purple-5: var(--purple-4);
 }
