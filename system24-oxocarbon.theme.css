@@ -164,13 +164,13 @@ body {
   /* For most of these, I've only set <color>-2 bc the others are unused :P */
 
   --red-1: oklch(75% 0.13 0);
-  --red-2: #78a9ff;
+  --red-2: #3ddbd9;
   --red-3: oklch(65% 0.13 0);
   --red-4: oklch(60% 0.13 0);
   --red-5: oklch(55% 0.13 0);
 
   --green-1: oklch(75% 0.12 170);
-  --green-2: var(--purple-1);
+  --green-2: #33b1ff;
   --green-3: oklch(65% 0.12 170);
   --green-4: oklch(60% 0.12 170);
   --green-5: oklch(55% 0.12 160);
@@ -182,7 +182,7 @@ body {
   --blue-5: oklch(55% 0.11 215);
 
   --yellow-1: oklch(80% 0.12 90);
-  --yellow-2: #42be65;
+  --yellow-2: #ee5396;
   --yellow-3: oklch(70% 0.12 90);
   --yellow-4: oklch(65% 0.12 90);
   --yellow-5: oklch(60% 0.12 90);
@@ -190,6 +190,6 @@ body {
   --purple-1: #ff7eb6;
   --purple-2: #be95ff;
   --purple-3: var(--purple-1);
-  --purple-4: #eb6ca5; /* ~5% lightness decrease */
+  --purple-4: var(--yellow-2);
   --purple-5: var(--purple-4);
 }
